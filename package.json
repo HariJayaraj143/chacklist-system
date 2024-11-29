@@ -1,0 +1,28 @@
+{
+  "name": "checklist-system",
+  "version": "1.0.0",
+  "description": "A simple Node.js application to evaluate checklist conditions and display results on a dashboard.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "checklist",
+    "nodejs",
+    "express",
+    "dashboard",
+    "api"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
